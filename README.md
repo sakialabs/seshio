@@ -35,15 +35,29 @@ Upload your materials, ask questions, and build understanding. Notes, summaries,
 - **🎯 Study Mode** - Practice with AI-generated quizzes based on your materials
 - **✍️ Content Generation** - Generate summaries, outlines, and flashcards from your materials
 - **🔒 Privacy-First** - Your data is encrypted and never shared with third parties
-- **� ML Experimentation** - Built-in framework for testing retrieval and learning strategies
+- **🔬 ML Experimentation** - Built-in framework for testing retrieval and learning strategies
 
 ---
 
 ## 📌 Project Status
 
-**Current Phase**: Phase 1 Complete - Foundation and Infrastructure ✅
+**Current Phase**: Phase 3 Complete - Material Upload and Processing ✅
 
-Phase 1 (authentication, database, and onboarding) is complete. Now beginning Phase 2 (notebook management).
+**Completed Phases:**
+- ✅ **Phase 1**: Foundation and Infrastructure (Auth, Database, Onboarding)
+- ✅ **Phase 2**: Notebook Management (CRUD, Context View, Search)
+- ✅ **Phase 3**: Material Upload and Processing (File Upload, Text Extraction, Chunking, Embeddings)
+
+**Next Up**: Phase 4 - Retrieval and Question Answering (Hybrid Search, RAG, Chat UI)
+
+**What's Working Now:**
+- User authentication and onboarding with archetype selection
+- Create, manage, and organize notebooks
+- Upload learning materials (PDF, DOCX, TXT, MD) with drag-and-drop
+- Automatic text extraction and chunking (500-1000 tokens)
+- Embedding generation via Gemini API (768-dim vectors)
+- Background processing with Celery and status tracking
+- 15 backend tests passing (100% success rate)
 
 **Progress Tracking:**
 - [📋 CHANGELOG.md](docs/CHANGELOG.md) - Completed tasks and version history
